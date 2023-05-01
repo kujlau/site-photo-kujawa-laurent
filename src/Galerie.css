@@ -1,0 +1,142 @@
+.back{
+  background-image: url('images/back-galerie.jpg');
+  width:100vw;
+  height:100vh;
+}
+
+.main-galerie{
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+  height:calc(100vh - 20.7em);
+  /* border: solid 1px white; */
+}
+
+button{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3{
+  color: white;
+  font-family: marry;
+  font-size: 1.5em;
+}
+
+.wrapper-btn{
+  display:flex;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.5);
+  width: 100vw;
+  padding-top:2em;
+  padding-bottom: 2em;
+ 
+}
+
+.wrapper-start{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  
+}
+
+.wrapper-end{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:40%;
+
+}
+
+.wrap_mariage{
+  background-image: url(images/mariage/img-mariage-desktop/image-mariage-desktop.jpg);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px  rgb(51,61,67,0.5);
+  border:solid 1px rgb(255,255,255,0.2);
+  width:21.9em;
+  height: 7.375em;
+}
+
+
+.wrap_grossesse{
+  background-image: url(images/Grossesse/img-grossesse-desktop/image-grossesse-desktop.jpg);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px  rgb(51,61,67,0.5);
+  border:solid 1px rgb(255,255,255,0.2);
+  width:21.9em;
+  height: 7.375em;
+}
+  
+
+.wrap_bebe{
+  background-image: url(images/Bebe/img-bebe-desktop/image-bebe-desktop.jpg);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px  rgb(51,61,67,0.5);
+  border:solid 1px rgb(255,255,255,0.2);
+  width:21.9em;
+  height: 7.375em;
+  margin-top: 2em;
+}
+
+.wrap_famille{
+  background-image: url(images/Famille/img-famille-desktop/image-famille-desktop.jpg);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px  rgb(51,61,67,0.8);
+  border:solid 1px rgb(255,255,255,0.2);
+  width:21.9em;
+  height: 7.375em;
+  margin-top: 2em;
+}
+
+.wrap_bapteme{
+  background-image: url(images/Bapteme/img-bapteme-desktop/image-bapteme-desktop.jpg);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px  rgb(51,61,67,0.5);
+  border:solid 1px rgb(255,255,255,0.2);
+  width:21.9em;
+  height: 7.375em;
+  margin-top: 2em;
+}
+  
+.wrap_couple{
+  background-image: url(images/Couple/img-couple-desktop/image-couple-desktop.jpg);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px  rgba(51,61,67,0.5);
+  border:solid 1px rgba(255,255,255,0.2);
+  width:21.9em;
+  height: 7.375em;
+  margin-top: 2em;
+}
+
+a.wrap_mariage:hover{
+  box-shadow: 0px 0px 40px  rgb(51,61,67);
+}
+a.wrap_grossesse:hover{
+  box-shadow: 0px 0px 40px  rgb(51,61,67);
+}
+a.wrap_bebe:hover{
+  box-shadow: 0px 0px 40px  rgb(51,61,67);
+}
+a.wrap_famille:hover{
+  box-shadow: 0px 0px 40px  rgba(51,61,67);
+}
+a.wrap_bapteme:hover{
+  box-shadow: 0px 0px 40px  rgba(51,61,67);
+}
+a.wrap_couple:hover{
+  box-shadow: 0px 0px 40px  rgba(51,61,67);
+}

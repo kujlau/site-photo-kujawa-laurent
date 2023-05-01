@@ -1,0 +1,47 @@
+.back_accueil{
+  height:100vh;
+  /* background-image: url('./images/accueil-bkgd.jpg'); */
+  background-repeat: no-repeat;
+  margin:0;
+  padding:0;
+  /* overflow: hidden; */
+}
+
+.wrapper-title{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:calc(100vh - 20.7em);
+  /* border:solid 1px white; */
+  margin:0;
+}
+
+
+h1.main-title{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: marry;
+  background-color: rgba(0,0,0,0.5);
+  width:100vw;
+  height:1em;
+  color: white;
+  font-size:5vw;
+  /* border:solid 1px white; */
+}
+
+em{
+
+  font-family: eurof35;
+  font-size: 0.6em;
+  color: white;
+}
+
+
+
+
+@media screen and (max-width:360px) {
+  .back_accueil{
+    background-image: url('./images/accueil-bkgd-mobile.jpg');
+  }
+} 

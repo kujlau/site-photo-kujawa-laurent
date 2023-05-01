@@ -1,0 +1,36 @@
+.back_mariage{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #47555E;
+  width: 99vw;
+  height: 100%;
+  /* border:solid 1px white; */
+}
+h1{
+  color:white;
+}
+
+.img1,.img3,.img6,.img9,.img12{
+  width:70vw;
+  height:auto;
+  margin-top:3.5em;
+  margin-bottom: 3.5em;
+}
+
+.img5,.img8,.img11{
+  width:70vw;
+  height:auto;
+  margin-top:3.5em;
+}
+
+
+img{
+  box-shadow: 0px 0px 20px  rgb(0,0,0,1);
+  border:solid 1px rgb(0,0,0,0.2);
+}
+
+.retour{
+  font-family: dream;
+}
+

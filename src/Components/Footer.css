@@ -1,0 +1,6 @@
+.Footer {
+  display:flex;
+  justify-content: center;
+  height:10.2em;
+  /* border:solid 1px white; */
+}

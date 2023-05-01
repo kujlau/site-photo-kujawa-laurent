@@ -1,0 +1,79 @@
+.back_prestations{
+  height:100vh;
+  background-image: url('./images/back-prestations.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height:100%;
+  margin:0;
+  padding:0;
+  /* overflow: hidden; */
+}
+.main-prestations{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10em;
+  margin-bottom: 10em;
+  
+}
+h1,h2,p,em{
+  text-align: center;
+  color:white;
+  margin:0;
+}
+.barre{
+  width:14em;
+  border:solid 1px white;
+  margin-top: 8em;
+  margin-bottom: 7em;
+}
+
+h2{
+  font-family: dream;
+}
+
+p,em{
+  font-family: eurof35;
+}
+
+h1{
+  font-family: marry;
+  font-size: 4.5em;
+  height: 2.5em;
+}
+
+h2{
+  font-size: 3em;
+}
+
+p{
+  margin-top: 2em;
+  font-size: 2.5em;
+}
+
+p.em{
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+
+
+.footer{
+  height:9.5em;
+}
+a.logo-end{
+  width:9;
+  display:flex;
+  justify-content: center;
+  box-shadow: 0px 0px 20px  rgb(0,0,0);
+  border:solid 1px rgb(0,0,0,0.2);
+}
+a.logo-end:hover{
+  box-shadow: 0px 0px 60px  rgb(0,0,0);
+}
+
+
+img.footer-logo{
+  width: 9em;
+  padding:0;
+}
+

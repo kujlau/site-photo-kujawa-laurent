@@ -27,18 +27,18 @@ function AlbumBapteme() {
     <div className='container'>
       <div className="back_bapteme">
         <Link className="retour" to="/galerie"><h2>RETOUR A LA GALERIE </h2></Link>
-        <img className='img1' src={image_1} alt="image 1 de l'album bapteme"></img>
-        <img className='img2' src={image_2} alt="image 2 de l'album bapteme"></img>
-        <img className='img3' src={image_3} alt="image 3 de l'album bapteme"></img>
-        <img className='img4' src={image_4} alt="image 4 de l'album bapteme"></img>
-        <img className='img5' src={image_5} alt="image 5 de l'album bapteme"></img>
-        <img className='img6' src={image_6} alt="image 6 de l'album bapteme"></img>
-        <img className='img7' src={image_7} alt="image 7 de l'album bapteme"></img>
-        <img className='img8' src={image_8} alt="image 8 de l'album bapteme"></img>
-        <img className='img9' src={image_9} alt="image 9 de l'album bapteme"></img>
-        <img className='img10' src={image_10} alt="image 10 de l'album bapteme"></img>
-        <img className='img11' src={image_11} alt="image 11 de l'album bapteme"></img>
-        <img className='img12' src={image_12} alt="image 12 de l'album bapteme"></img>
+        <img className='img1' src={image_1} alt="prêtre versant de l'eau sur la tête d'un bébé"></img>
+        <img className='img2' src={image_2} alt="baptême d'un bébé vu de haut"></img>
+        <img className='img3' src={image_3} alt="femme tenant un bébé au dessus d'un bassin de baptême"></img>
+        <img className='img4' src={image_4} alt="prêtre tenant un enfant dans les bras"></img>
+        <img className='img5' src={image_5} alt="femme qui soulève une petite fille"></img>
+        <img className='img6' src={image_6} alt="homme portant une petite fille"></img>
+        <img className='img7' src={image_7} alt="baptême d'une petite fille"></img>
+        <img className='img8' src={image_8} alt="prêtre baptisant un bébé"></img>
+        <img className='img9' src={image_9} alt="enfant en tenue de baptême sur une pelouse"></img>
+        <img className='img10' src={image_10} alt="enfant assis dans l'herbe"></img>
+        <img className='img11' src={image_11} alt="bébé se faisant baptiser"></img>
+        <img className='img12' src={image_12} alt="bapteme d'un bébé"></img>
         <Link className="retour" to="/galerie"><h2>RETOUR A LA GALERIE </h2></Link>
         <Footer />
           

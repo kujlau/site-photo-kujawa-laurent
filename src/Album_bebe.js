@@ -27,18 +27,18 @@ function AlbumBebe() {
     <div className='container'>
       <div className="back_bebe">
         <Link className="retour" to="/galerie"><h2>RETOUR A LA GALERIE </h2></Link>
-        <img className='img1' src={image_1} alt="images 1 de l'album bébé" />
-        <img className='img2' src={image_2} alt="images 2 de l'album bébé"></img>
-        <img className='img3' src={image_3} alt="images 3 de l'album bébé"></img>
-        <img className='img4' src={image_4} alt="images 4 de l'album bébé"></img>
-        <img className='img5' src={image_5} alt="images 5 de l'album bébé"></img>
-        <img className='img6' src={image_6} alt="images 6 de l'album bébé"></img>
-        <img className='img7' src={image_7} alt="images 7 de l'album bébé"></img>
-        <img className='img8' src={image_8} alt="images 8 de l'album bébé"></img>
-        <img className='img9' src={image_9} alt="images 9 de l'album bébé"></img>
-        <img className='img10' src={image_10} alt="images 10 de l'album bébé"></img>
-        <img className='img11' src={image_11} alt="images 11 de l'album bébé"></img>
-        <img className='img12' src={image_12} alt="images 12 de l'album bébé"></img>
+        <img className='img1' src={image_1} alt="bébé dans un nid " />
+        <img className='img2' src={image_2} alt="mains tenant un pied d'un bébé"></img>
+        <img className='img3' src={image_3} alt="petit garçon assis sur une chaise embrassant un bébé allongé sur lui"></img>
+        <img className='img4' src={image_4} alt="portrait bébé yeyx bleus avec tétine dans sa bouche"></img>
+        <img className='img5' src={image_5} alt="bébé qui dort avec un bonnet "></img>
+        <img className='img6' src={image_6} alt="bébé dans une couverture rouge tenu par ses parents"></img>
+        <img className='img7' src={image_7} alt="bébé rampant avec déguisement sur la tête "></img>
+        <img className='img8' src={image_8} alt="bébé dormant sur un avant bras"></img>
+        <img className='img9' src={image_9} alt="bébé qui dort avec une peluche lapin"></img>
+        <img className='img10' src={image_10} alt="bébé se tenant debout les mains sur un tabouret"></img>
+        <img className='img11' src={image_11} alt="bébé qui dort avec noeud sur la tête"></img>
+        <img className='img12' src={image_12} alt="bébé dormant avec décorations de noel"></img>
         <Link className="retour" to="/galerie"><h2>RETOUR A LA GALERIE </h2></Link>
         <Footer />
           

@@ -13,6 +13,8 @@ import Prestations from './Prestations';
 
 import Contact from './Contact';
 
+import MessageForm from './Message_form';
+
 import AlbumMariage from "./Album_mariage";
 
 import AlbumGrossesse from "./Album_grossesse";
@@ -35,6 +37,7 @@ function App() {
             <Route path="/galerie" element={<Galerie />} />
             <Route path="/prestations" element={<Prestations />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/validation" element={<MessageForm />} />
             <Route path="/album_mariage" element= {<AlbumMariage />} />
             <Route path="/album_grossesse" element= {<AlbumGrossesse />} />
             <Route path="/album_bebe" element= {<AlbumBebe />} />

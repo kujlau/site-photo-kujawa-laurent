@@ -1,31 +1,185 @@
-.contact{
+.form{
   display:flex;
-  justify-content: center;
-}
-
-form{
-  display: flex;
   flex-direction: column;
   align-items: center;
+  /* border: solid 1px white; */
+  height:30em;
 }
 
-.first_line{
+.start-form{
   display:flex;
+  justify-content: space-between;
+  /* border: solid 1px white; */
+  width:58em;
+  height:3em;
+  margin-top:1em;
 }
 
-.second_line{
+.end-form{
   display:flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  /* border: solid 1px white; */
+  width:58em;
+  height:3em;
+  margin-top: 3em;
+  margin-bottom: 5.5em;
+}
+
+.error-label{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: solid 1px white; */
+  height:4em;
+  margin-bottom:2em;
+  padding:0;
+}
+
+h4{ 
+  color:white;
+  font-family: dream;
+  font-size: 1.5em;
+  /* border: solid 1px white; */
 }
 
 label{
-  font-family: dream;
-  color:white;
-  font-size: 2em;
-  margin-right: 0.6em;
+  display:flex;
+  align-items: center;
+  /* border: solid 1px white; */
 }
 
-.message{
-  display:flex;
-  justify-content: center;
+
+.error-message p{
+  border: solid 1px white;
+  background-color: rgb(71,85,94);
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin:0;
 }
+label.prenom{
+  display: flex;
+  justify-content: flex-start;
+  width:27em;
+  /* border: solid 1px white; */
+  height:2.2em;
+}
+label.prenom h4{
+  margin-top:1.7em;
+}
+
+
+input.champ_prenom{
+  height:1.6em;
+  width:30em;
+  font-family: arial;
+  font-size: 1.3em;
+  padding-left:1em;
+  margin-left: 0.6em;
+}
+
+label.nom{
+  display: flex;
+  justify-content: flex-end;
+  width:27em;
+  height:2.2em;
+}
+label.nom h4{
+  margin-top:1.7em;
+}
+
+input.champ_nom{
+  height:1.6em;
+  width:30em;
+  font-family: arial;
+  font-size: 1.3em;
+  padding-left:1em;
+  margin-left: 0.6em;
+}
+
+label.email{
+  display: flex;
+  justify-content: flex-start;
+  width:27em;
+  height:2.2em;
+  /* border: solid 1px white; */
+}
+label.email h4{
+  width:3.85em;
+  margin-top:1.7em;
+  text-align: right;
+}
+
+input.champ_email{
+  height:1.6em;
+  width:18em;
+  font-family: arial;
+  font-size: 1.3em;
+  padding-left:1em;
+  margin-left: 0.6em;
+}
+
+label.telephone{
+  display: flex;
+  justify-content: flex-end;
+  width:27em;
+  height:2.2em;
+}
+label.telephone h4{
+  margin-top:1.7em;
+}
+
+input.champ_tel{
+  height:1.6em;
+  width:16.55em;
+  font-family: arial;
+  font-size: 1.3em;
+  padding-left:1em;
+  margin-left: 0.9em;
+}
+
+label.message{
+  display: flex;
+  justify-content: flex-start;
+  width:60em;
+  height:7em;
+  margin-left: 0.5em;;
+  /* border:solid 1px white; */
+}
+label.message h4{
+  margin-top:4.5em;
+}
+
+textarea{
+  height:5em;
+  width:39em;
+  font-family: arial;
+  font-size: 1.3em;
+  margin-left: 0.6em;
+  padding-left:1em;
+  resize: none;
+}
+
+button{
+  background-color: rgb(71,85,94);
+  color: white;
+  width:8em;
+  height:4em;
+  margin-top: 1em;
+  
+  border:solid 1px rgba(0,0,0,0.5);
+}
+button:hover{
+  cursor:pointer;
+  box-shadow: 0px 0px 60px  rgb(0,0,0);
+  border:solid 1px rgba(0,0,0,0.5);
+}
+
+
+p.obligatoire{
+  font-family: arial;
+  font-size: 0.9em;
+  /* border: solid 1px white; */
+  margin-top: 0.5em;
+}
+
